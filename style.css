@@ -19,6 +19,7 @@ html {
   max-width: 1125px;
   margin: 0 auto;
 }
+/* header */
 .header__wrapper {
   display: flex;
   justify-content: space-between;
@@ -38,6 +39,7 @@ html {
   font-weight: 700;
   font-size: 0.9rem;
 }
+/* .header__inner */
 .header__inner {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 100%, transparent),
     url("img/header__inner-bg.jpg") no-repeat;
@@ -146,6 +148,18 @@ html {
   left: 63%;
   top: 63%;
 }
+/* header__sidebar */
+.header__sidebar {
+  background: #fcb800;
+  text-align: center;
+  padding: 25px 0;
+}
+.header__sidebar > p {
+  margin: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* timer__wrapper */
 .timer__wrapper {
   max-width: 1000px;
   display: flex;
@@ -155,7 +169,7 @@ html {
 .timer__wrapper > div {
   border: 15px #fcb800 solid;
   border-radius: 50%;
-  padding: 61px 0;
+  padding: 51px 0;
   max-width: 220px;
   width: 100%;
   text-align: center;
@@ -163,10 +177,13 @@ html {
   font-family: MyHelvetica;
   font-weight: 700;
   font-size: 1.5rem;
+  line-height: 44px;
 }
 .timer__wrapper > div > p {
-  margin: 0;
+  font-size: 3.8rem;
+  margin: 0 0 10px;
 }
+/* text  */
 .text {
   background: url("img/text__bg.jpg") no-repeat;
   background-size: cover;
