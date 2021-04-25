@@ -337,6 +337,14 @@ html {
     padding: 60px 40px 30px;
   }
 }
+@media screen and (max-width: 700px) {
+  .header__inner-wrapper > h1 {
+    font-size: 2.6em;
+  }
+  .text__wrapper > p {
+    margin: 0 0 20px;
+  }
+}
 @media screen and (max-width: 680px) {
   body,
   html {
@@ -368,6 +376,11 @@ html {
   .timer__row > div {
     width: 185px;
     padding: 28.5px 0;
+    font-size: 1.8em;
+  }
+  .text__wrapper > p {
+    margin: 0 0 15px;
+    font-size: 1.2em;
   }
   .button-desktop {
     display: none;
@@ -379,13 +392,14 @@ html {
     position: relative;
   }
   .button-mob > p {
-    margin: 0 0 90px;
+    margin: 30px 0 0;
+    font-size: 1.2em;
   }
   .button-mob > img {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 25%);
+    margin-top: -5%;
+  }
+  .br-540px {
+    display: block;
   }
 }
 @media screen and (max-width: 580px) {
@@ -397,37 +411,16 @@ html {
   .header__inner-wrapper > h1 {
     line-height: 50px;
   }
+  .timer__row > div {
+    font-size: 2em;
+  }
   .text {
     padding: 40px 15px 15px;
   }
-  .button-mob > p {
-    margin: 0 0 75px;
-  }
-}
-@media screen and (max-width: 540px) {
-  .button-mob > img {
-    transform: translate(-50%, 30%);
-  }
 }
 @media screen and (max-width: 450px) {
-  .button-mob > p {
-    margin: 0 0 50px;
-  }
-  .button-mob > img {
-    transform: translate(-50%, 70%);
-  }
-  .br-540px {
-    display: block;
-  }
-}
-@media screen and (max-width: 450px) {
-  .timer__row > div {
-    width: 150px;
-    padding: 25px 0;
-  }
-  .timer__row > div {
-    line-height: 30px;
-    margin: 6px;
+  .header__inner-wrapper > h1 {
+    font-size: 2.3em;
   }
   .header__inner-text > p:first-of-type {
     line-height: 30px;
@@ -442,8 +435,17 @@ html {
   .header__inner-text > p:nth-of-type(4) {
     line-height: 55px;
   }
+  .timer__row > div {
+    width: 150px;
+    padding: 26px 0;
+    line-height: 30px;
+    margin: 6px;
+  }
+  .timer__row > div > p {
+    margin: 4px auto;
+  }
 }
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 400px) {
   body,
   html {
     font-size: 10px;
@@ -454,11 +456,5 @@ html {
   }
   .header__inner-flexcontainer > p {
     line-height: 50px;
-  }
-  .button-mob > p {
-    margin: 0 0 37px;
-  }
-  .button-mob > img {
-    transform: translate(-50%, 80%);
   }
 }
