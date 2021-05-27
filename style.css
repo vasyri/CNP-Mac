@@ -239,10 +239,12 @@ html {
 .text__button-container.button-mob {
   display: none;
 }
+.br-340px {
+  display: none;
+}
 .br-540px {
   display: none;
 }
-/* 768px пропадає банка */
 @media screen and (max-width: 1200px) {
   .header__wrapper {
     padding: 20px 60px;
@@ -329,7 +331,6 @@ html {
   .timer__wrapper {
     padding: 35px 15px;
   }
-  /* temporary */
   .text__wrapper {
     padding: 21px;
   }
@@ -437,9 +438,10 @@ html {
   }
   .timer__row > div {
     width: 150px;
-    padding: 26px 0;
+    padding: 31px 0;
     line-height: 30px;
     margin: 6px;
+    border: 10px#fcb800 solid;
   }
   .timer__row > div > p {
     margin: 4px auto;
@@ -456,5 +458,16 @@ html {
   }
   .header__inner-flexcontainer > p {
     line-height: 50px;
+  }
+  .text__wrapper > p {
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 340px) {
+  .br-340px {
+    display: block;
+  }
+  .br-540px {
+    display: none;
   }
 }
